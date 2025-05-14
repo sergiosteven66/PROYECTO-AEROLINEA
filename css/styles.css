@@ -323,3 +323,31 @@ body {
   color: white;
   transform: translateY(-2px);
 }
+
+/* Search options */
+.search-options {
+  margin-bottom: 25px;
+}
+
+.search-option {
+  margin-bottom: 20px;
+  animation: fadeInUp 0.5s ease;
+}
+
+.search-option label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: var(--dark);
+}
+
+.search-option select,
+.search-option input {
+  width: 100%;
+  padding: 14px 16px;
+  border: 2px solid #e9ecef;
+  border-radius: var(--border-radius);
+  font-size: 16px;
+  transition: var(--transition);
+  background-color: #f8f9fa;
+}
