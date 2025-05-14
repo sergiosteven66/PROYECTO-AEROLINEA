@@ -129,3 +129,37 @@ body {
   box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.2);
   background-color: white;
 }
+
+/* Botones */
+.btn {
+  display: block;
+  width: 100%;
+  padding: 16px;
+  background: linear-gradient(to right, var(--primary), var(--primary-dark));
+  color: white;
+  border: none;
+  border-radius: var(--border-radius);
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+  text-align: center;
+  text-decoration: none;
+  margin-top: 25px;
+  box-shadow: 0 4px 10px rgba(0, 102, 204, 0.3);
+  animation: fadeInUp 0.5s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 102, 204, 0.4);
+}
+
+.btn:active {
+  transform: translateY(0);
+}
+
+.btn-secondary {
+  background: linear-gradient(to right, var(--secondary), #e05d00);
+  box-shadow: 0 4px 10px rgba(255, 107, 0, 0.3);
+}
