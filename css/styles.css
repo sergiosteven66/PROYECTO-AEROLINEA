@@ -194,3 +194,18 @@ body {
 .link:hover:after {
   transform: scaleX(1);
 }
+
+/* Checkbox */
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  animation: fadeIn 0.5s ease;
+}
+
+.checkbox-group input {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  accent-color: var(--primary);
+}
