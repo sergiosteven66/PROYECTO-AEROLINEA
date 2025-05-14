@@ -63,3 +63,16 @@ body {
   margin-bottom: 30px;
   animation: bounce 2s infinite;
 }
+
+/* Contenedor móvil */
+.mobile-container {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  display: block;
+  min-height: 100vh;
+  position: relative;
+  background-color: white;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
